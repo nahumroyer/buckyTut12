@@ -1,0 +1,3 @@
+/Users/nahumroyer/CLionProjects/cppBasics/buckyTut12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nahumroyer/CLionProjects/cppBasics/buckyTut12/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nahumroyer/CLionProjects/cppBasics/buckyTut12/cmake-build-debug/CMakeFiles/buckyTut12.dir
