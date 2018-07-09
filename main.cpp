@@ -3,7 +3,13 @@
 using namespace std;
 
 class NahumsClass{
-public: 
+public:
+
+    // Constructor - automatically called with every object
+    NahumsClass(string z){
+        cout << "the constructor will print this automagically" << endl;
+        setName(z);
+    }
 
     void coolSaying(){
         cout << "The answer to everything is 42" << endl;
@@ -26,13 +32,20 @@ private:
 };
 int main() {
     // from tut12
-    NahumsClass nahums_object;
+    NahumsClass nahums_object("lucky bastard");
     cout << "Hello, World!" << endl;
     nahums_object.coolSaying();
+
+    // from tut 14
+    cout << nahums_object.getName() << endl;
 
     // from tut 13
     nahums_object.setName("Sire Bucky Wallace");
     cout << nahums_object.getName() << endl;
+
+    // from tut 14
+    NahumsClass nahums_object2("mcPheeson 2");
+    cout << nahums_object2.getName() << endl;
 
     return 0;
 }
